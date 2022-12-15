@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background: hsl(217, 54%, 11%);
+    color: hsl(215, 51%, 70%);
+}
+
+.card {
+    background: hsl(216, 50%, 16%);
+    width: 30ch;
+    display: block;
+    margin: 4rem auto;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.image-cont {
+    position: relative;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 1.3rem;
+    background: hsl(178, 100%, 50%);
+  }
+.img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 1rem;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.view {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+  .image-cont:hover .img {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  
+  .image-cont:hover .view {
+    opacity: 1;
+    cursor: pointer;
+  }
+
+.info {
+    width: 95%;
+    display: block;
+    margin: 0 auto;
+}
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 1.2rem;
+}
+
+h1:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.prg {
+    font-size: 1.1rem;
+}
+
+.info-1 {
+    color: hsl(178, 100%, 50%);
+    display: flex;
+    justify-content: space-around;
+}
+
+svg {
+    margin: 0 0.3rem 0 0 ;
+    display: inline-block;
+    vertical-align: middle;
+}
+.date {
+    color: hsl(215, 51%, 70%);;
+}
+
+hr {
+    width: 95%;
+    border: 1px solid hsl(215, 32%, 27%);
+}
+
+.creator {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    color: hsl(0, 0%, 100%);;
+}
+a:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.creator-avt {
+    width: 2.5rem;
+    margin: 0 1rem;
+    border-radius: 50%;
+    border: 2px solid hsl(0, 0%, 100%);
+}
+
+@media screen and (max-width: 400px) {
+    .card {
+        width: 85%;
+        display: block;
+        margin: 1.6rem auto;
+    }
+}
