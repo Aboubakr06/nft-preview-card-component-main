@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://your-solution-url.com)
-- Live Site URL: (https://your-live-site-url.com)
+- Solution URL: (https://github.com/Aboubakr06/nft-preview-card-component-main)
+- Live Site URL: (https://wonderful-mandazi-966bc2.netlify.app/)
 
 ## My process
 
