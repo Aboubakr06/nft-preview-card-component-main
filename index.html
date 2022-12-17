@@ -1,52 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | NFT preview card component</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+
+
   <link rel="stylesheet" type="text/css" href="style.css">
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
+
+
   <main>
-    <div class="card">
-      <div class="image-cont">
-      <img class="img" alt="a transparent cube reflecting rainbow colors" src="images/image-equilibrium.jpg">
-      <img class="view" alt="view" src="images/icon-view.svg">
-    </div>
-      <div class="info">
-        <h1>Equilibrium #3429</h1>
-        <p class="prg">Our Equilibrium collection promotes balance and calm.</p>
-        <div class="info-1">
-        <p class="price">
-          <svg width="11" height="18" xmlns="http://www.w3.org/2000/svg">
-          <path d="M11 10.216 5.5 18 0 10.216l5.5 3.263 5.5-3.262ZM5.5 0l5.496 9.169L5.5 12.43 0 9.17 5.5 0Z" fill="#00FFF8"/>
-        </svg>
-        0.041 ETH </p>
-        <p class="date">
-
-          <svg width="17" height="17" xmlns="http://www.w3.org/2000/svg">
-            <path d="M8.305 2.007a6.667 6.667 0 1 0 0 13.334 6.667 6.667 0 0 0 0-13.334Zm2.667 7.334H8.305a.667.667 0 0 1-.667-.667V6.007a.667.667 0 0 1 1.334 0v2h2a.667.667 0 0 1 0 1.334Z" fill="#8BACD9"/>
-          </svg>
-          3 days left</p>
+    <article class="product">
+      <div class="img-container">
+        <img class="product__img" alt="a transparent cube reflecting rainbow colors" src="images/image-equilibrium.jpg">
+        <div class="eye-icon"></div>
       </div>
-</div>
-<hr>
-  <div class="creator">
-    <img class="creator-avt" alt="Jules Wyvern avatar" src="images/image-avatar.png">
-  <p>Creation of <a>Jules Wyvern</a></p>
-</div>
-</div>
+      <div class="product__content">
+        <h1 class="product__title">Equilibrium #3429</h1>
+        <p>Our Equilibrium collection promotes balance and calm.</p>
+        <div class="flex-group">
+          <p class="product__price flex-group">
+            <img class="eth-icons" alt="ethereum icon" src="images/icon-ethereum.svg">0.041 ETH
+          </p>
+          <p class="product__time-left flex-group"><img class="clock-icons" alt="clock icon"
+              src="images/icon-clock.svg">3 days left</p>
+        </div>
+        <hr>
+        <div class="flex-group creator">
+          <img class="creator__avt" alt="Jules Wyvern avatar" src="images/image-avatar.png">
+          <p>Creation of <a class="creator__name">Jules Wyvern</a></p>
+        </div>
+      </div>
+    </article>
   </main>
-
-  <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-  </footer>
 </body>
 </html>
