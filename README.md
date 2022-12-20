@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://github.com/Aboubakr06/nft-preview-card-component-main)
+- Solution URL: (https://www.frontendmentor.io/solutions/nft-preview-card-component-hphWU3qMQZ)
 - Live Site URL: (https://wonderful-mandazi-966bc2.netlify.app/)
 
 ## My process
